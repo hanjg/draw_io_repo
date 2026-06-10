@@ -4,8 +4,38 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="126" width="550" x="180" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="126" width="550" x="180" y="250" as="geometry" />
+        </mxCell>
         <mxCell id="pT7SL0AU2GnrM4RqSykw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="题目：https://enginebogie.com/interview/experience/coupang-staff-software-engineer/1146" vertex="1">
           <mxGeometry height="30" width="610" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="位置" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="交易" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IM" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="履约" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="导购" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用户" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流程" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="pT7SL0AU2GnrM4RqSykw-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="能力" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="441" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
