@@ -408,7 +408,7 @@
         <mxCell id="waYAHX3jCZ2jNGlATNnN-47" edge="1" parent="1" source="waYAHX3jCZ2jNGlATNnN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="waYAHX3jCZ2jNGlATNnN-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="waYAHX3jCZ2jNGlATNnN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="分类销量库&lt;div&gt;单库&lt;/div&gt;" vertex="1">
+        <mxCell id="waYAHX3jCZ2jNGlATNnN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="分类销量库&lt;div&gt;主从单库&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="497" y="460" as="geometry" />
         </mxCell>
         <mxCell id="waYAHX3jCZ2jNGlATNnN-7" edge="1" parent="1" source="waYAHX3jCZ2jNGlATNnN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" target="waYAHX3jCZ2jNGlATNnN-6">
