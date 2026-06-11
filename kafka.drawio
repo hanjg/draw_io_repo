@@ -408,7 +408,7 @@
         <mxCell id="waYAHX3jCZ2jNGlATNnN-47" edge="1" parent="1" source="waYAHX3jCZ2jNGlATNnN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="waYAHX3jCZ2jNGlATNnN-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="waYAHX3jCZ2jNGlATNnN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="分类销量库&lt;div&gt;主从单库&lt;/div&gt;" vertex="1">
+        <mxCell id="waYAHX3jCZ2jNGlATNnN-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="分类销量库&lt;div&gt;分片库&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="497" y="460" as="geometry" />
         </mxCell>
         <mxCell id="waYAHX3jCZ2jNGlATNnN-7" edge="1" parent="1" source="waYAHX3jCZ2jNGlATNnN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" target="waYAHX3jCZ2jNGlATNnN-6">
@@ -456,7 +456,7 @@
         <mxCell id="waYAHX3jCZ2jNGlATNnN-14" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="分类每天销量" vertex="1">
           <mxGeometry height="120" width="160" x="390" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="waYAHX3jCZ2jNGlATNnN-15" parent="waYAHX3jCZ2jNGlATNnN-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ cat_id&lt;div&gt;+ goods_id&lt;/div&gt;&lt;div&gt;+ date&lt;br&gt;+ sold_quantity&lt;/div&gt;" vertex="1">
+        <mxCell id="waYAHX3jCZ2jNGlATNnN-15" parent="waYAHX3jCZ2jNGlATNnN-14" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ cat_id sharding&lt;div&gt;+ goods_id&lt;/div&gt;&lt;div&gt;+ date&lt;br&gt;+ sold_quantity&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="160" y="50" as="geometry" />
         </mxCell>
         <mxCell id="waYAHX3jCZ2jNGlATNnN-19" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;排行redis 集群&lt;/div&gt;&lt;div&gt;key:cat_id+date&lt;/div&gt;&lt;div&gt;value: goods_id+sold_quatity list&lt;/div&gt;" vertex="1">
@@ -491,7 +491,7 @@
         <mxCell id="waYAHX3jCZ2jNGlATNnN-43" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="分类窗口销量" vertex="1">
           <mxGeometry height="140" width="160" x="600" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="waYAHX3jCZ2jNGlATNnN-44" parent="waYAHX3jCZ2jNGlATNnN-43" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ cat_id&amp;nbsp; sharding key&lt;div&gt;+ goods_id&lt;/div&gt;&lt;div&gt;+ to_date&lt;/div&gt;&lt;div&gt;+ from_date&lt;br&gt;+ sold_quantity&amp;nbsp; key&lt;/div&gt;" vertex="1">
+        <mxCell id="waYAHX3jCZ2jNGlATNnN-44" parent="waYAHX3jCZ2jNGlATNnN-43" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+ cat_id&amp;nbsp; sharding&lt;div&gt;+ goods_id&lt;/div&gt;&lt;div&gt;+ to_date&lt;/div&gt;&lt;div&gt;+ from_date&lt;br&gt;+ sold_quantity&amp;nbsp; key&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="160" y="50" as="geometry" />
         </mxCell>
         <mxCell id="waYAHX3jCZ2jNGlATNnN-48" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="商品库存库" vertex="1">
