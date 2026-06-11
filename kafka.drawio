@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/10.8.0 Chrome/73.0.3683.121 Electron/5.0.4 Safari/537.36" pages="3">
   <diagram id="dw9DIYGoIQujjZgAUzOq" name="打车应用">
-    <mxGraphModel dx="3344" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qZWEmjuA36gEhOPuAmIH-36" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;题目：https://enginebogie.com/interview/experience/coupang-staff-software-engineer/1146&lt;/span&gt;" vertex="1">
-          <mxGeometry height="50" width="580" x="240" y="20" as="geometry" />
+          <mxGeometry height="50" width="580" x="660" y="-220" as="geometry" />
         </mxCell>
         <mxCell id="qZWEmjuA36gEhOPuAmIH-51" edge="1" parent="1" source="qZWEmjuA36gEhOPuAmIH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qZWEmjuA36gEhOPuAmIH-50">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry height="60" width="80" x="640" y="650" as="geometry" />
         </mxCell>
         <mxCell id="qZWEmjuA36gEhOPuAmIH-55" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="乘客、司机：注册、聊天&lt;div&gt;&lt;div&gt;乘客：输入上下车地点，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;显示车辆、预计价格、等待时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;乘客：下单&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;司机：展示乘客信息、上下车地点&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;司机：接单或拒绝&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;乘客：显示司机位置和预计到达时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;乘客：可取消、可查看行程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;司机：提供导航&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;司机：开始结束行程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;乘客：支付&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;司机：结算、查看行程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="570" x="-450" y="140" as="geometry" />
+          <mxGeometry height="230" width="570" x="670" y="-150" as="geometry" />
         </mxCell>
         <mxCell id="qZWEmjuA36gEhOPuAmIH-60" edge="1" parent="1" source="qZWEmjuA36gEhOPuAmIH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qZWEmjuA36gEhOPuAmIH-59">
           <mxGeometry relative="1" as="geometry" />
