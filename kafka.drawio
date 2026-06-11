@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X82eesfeykfDVVLsCO9d" name="爬虫">
-    <mxGraphModel dx="1915" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2241" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,7 +379,7 @@
         <mxCell id="_zXhN4HSyIswi5ZMuQij-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配置服务&lt;div&gt;ip代理&lt;/div&gt;&lt;div&gt;限流配置&lt;/div&gt;&lt;div&gt;初始化url&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="680" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-24" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="url分发：&lt;div&gt;updated_at扫表&lt;/div&gt;&lt;div&gt;状态过滤：待爬取/已爬取但是过期的url&lt;/div&gt;&lt;div&gt;domain限流过滤&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-24" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="url分发：&lt;div&gt;updated_at扫表&lt;/div&gt;&lt;div&gt;状态过滤：待爬取/已爬取但是过期的url&lt;/div&gt;&lt;div&gt;domain限流过滤&lt;br&gt;&lt;div&gt;分发url更新到爬取中&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="320" x="-350" y="380" as="geometry" />
         </mxCell>
       </root>
