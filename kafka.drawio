@@ -314,6 +314,55 @@
         <mxCell id="_zXhN4HSyIswi5ZMuQij-1" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md" vertex="1">
           <mxGeometry height="20" width="890" x="-260" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="url&lt;div&gt;抓网页&lt;/div&gt;&lt;div&gt;解析网页&lt;/div&gt;&lt;div&gt;保存网页内容、url入队列&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="310" x="-50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-6" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-13" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-15" connectable="0" parent="_zXhN4HSyIswi5ZMuQij-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="url" vertex="1">
+          <mxGeometry relative="1" x="-0.0571" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发服务&lt;div&gt;过滤有效url（ttl）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-9" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="执行服务&lt;div&gt;下载网页&lt;/div&gt;&lt;div&gt;解析网页&lt;/div&gt;&lt;div&gt;保存摘要、内容、保存归一化url&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="186" x="414" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="url&lt;br&gt;&lt;div&gt;网页摘要&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-7" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_zXhN4HSyIswi5ZMuQij-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="390" />
+              <mxPoint x="235" y="390" />
+              <mxPoint x="235" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="网页内容" vertex="1">
+          <mxGeometry height="70" width="120" x="447" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-14" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" target="_zXhN4HSyIswi5ZMuQij-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-16" connectable="0" parent="_zXhN4HSyIswi5ZMuQij-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="url" vertex="1">
+          <mxGeometry relative="1" x="-0.0312" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="MQ" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="310" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
