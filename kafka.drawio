@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X82eesfeykfDVVLsCO9d" name="爬虫">
-    <mxGraphModel dx="2241" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1915" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -328,29 +328,36 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发服务&lt;div&gt;过滤有效url（ttl）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="60" y="310" as="geometry" />
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发服务&lt;div&gt;url分发&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" y="310" as="geometry" />
         </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-9" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="执行服务&lt;div&gt;下载网页&lt;/div&gt;&lt;div&gt;解析网页&lt;/div&gt;&lt;div&gt;保存摘要、内容、保存归一化url&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="186" x="414" y="310" as="geometry" />
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-21" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="url&lt;br&gt;&lt;div&gt;网页摘要&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="120" x="60" y="440" as="geometry" />
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="执行服务&lt;div&gt;下载网页&lt;/div&gt;&lt;div&gt;解析网页&lt;/div&gt;&lt;div&gt;保存摘要：url uk upsert&lt;/div&gt;&lt;div&gt;保存内容&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="186" x="414" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-7" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_zXhN4HSyIswi5ZMuQij-5">
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;网页摘要&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="30" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-7" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="474" y="390" />
               <mxPoint x="235" y="390" />
               <mxPoint x="235" y="475" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-23" connectable="0" parent="_zXhN4HSyIswi5ZMuQij-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="更新" vertex="1">
+          <mxGeometry relative="1" x="-0.2955" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="网页内容" vertex="1">
-          <mxGeometry height="70" width="120" x="447" y="440" as="geometry" />
+          <mxGeometry height="70" width="120" x="447" y="450" as="geometry" />
         </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-14" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" target="_zXhN4HSyIswi5ZMuQij-4">
           <mxGeometry relative="1" as="geometry" />
@@ -362,6 +369,18 @@
         </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="MQ" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-17" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="网页摘要" vertex="1">
+          <mxGeometry height="180" width="160" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-18" parent="_zXhN4HSyIswi5ZMuQij-17" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+normalized_url&lt;br&gt;+status 代爬取，爬取中，已爬取&lt;br&gt;+ lasted_updated 爬取时间&lt;div&gt;+ file_id 网页文件id&lt;/div&gt;&lt;div&gt;+ file_md5&lt;/div&gt;&lt;div&gt;+ file_prefix_md5&lt;/div&gt;&lt;div&gt;+ updated_at&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配置服务&lt;div&gt;ip代理&lt;/div&gt;&lt;div&gt;限流配置&lt;/div&gt;&lt;div&gt;初始化url&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-24" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="url分发：&lt;div&gt;updated_at扫表&lt;/div&gt;&lt;div&gt;状态过滤：待爬取/已爬取但是过期的url&lt;/div&gt;&lt;div&gt;domain限流过滤&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="320" x="-350" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
