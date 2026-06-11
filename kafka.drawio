@@ -307,7 +307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X82eesfeykfDVVLsCO9d" name="爬虫">
-    <mxGraphModel dx="2241" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2174" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -328,7 +328,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发服务&lt;div&gt;url分发&lt;/div&gt;" vertex="1">
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发服务&lt;div&gt;url分发任务&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" y="310" as="geometry" />
         </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-9" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_zXhN4HSyIswi5ZMuQij-8">
@@ -367,7 +367,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="MQ" vertex="1">
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="MQ带死信" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="310" as="geometry" />
         </mxCell>
         <mxCell id="_zXhN4HSyIswi5ZMuQij-17" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="网页摘要" vertex="1">
@@ -379,8 +379,14 @@
         <mxCell id="_zXhN4HSyIswi5ZMuQij-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="配置服务&lt;div&gt;ip代理&lt;/div&gt;&lt;div&gt;限流配置&lt;/div&gt;&lt;div&gt;初始化url&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="680" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="_zXhN4HSyIswi5ZMuQij-24" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="url分发：&lt;div&gt;updated_at扫表&lt;/div&gt;&lt;div&gt;状态过滤：待爬取/已爬取但是过期的url&lt;/div&gt;&lt;div&gt;domain限流过滤&lt;br&gt;&lt;div&gt;分发url更新到爬取中&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="320" x="-350" y="380" as="geometry" />
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-24" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" value="url分发：&lt;div&gt;updated_at顺排扫表&lt;/div&gt;&lt;div&gt;状态过滤：待爬取/已爬取但是过期的url&lt;/div&gt;&lt;div&gt;domain限流过滤&lt;br&gt;&lt;div&gt;分发url更新到爬取中&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="320" x="-380" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-25" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;限流redis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="-120" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_zXhN4HSyIswi5ZMuQij-26" edge="1" parent="1" source="_zXhN4HSyIswi5ZMuQij-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_zXhN4HSyIswi5ZMuQij-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
